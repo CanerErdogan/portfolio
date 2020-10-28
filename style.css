@@ -1,0 +1,72 @@
+body,
+html {
+    display: flex;
+    flex-direction: row;
+    margin: auto 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: cornflowerblue;
+    justify-content: space-between;
+    color: white;
+    font-family: "Ubuntu";
+}
+
+.page {
+    display: flex;
+    justify-content: flex-start;
+    height: 100vh;
+    width: 5vw;
+    transition: all 0.5s;
+    flex-grow: 1;
+    flex-basis: 3vw;
+}
+
+.expanded {
+    flex-grow: 100;
+}
+
+#education {
+    background-color: #02163B;
+}
+
+#experience {
+    background-color: #092F74;
+}
+
+#achievements {
+    background-color: #1046A9;
+}
+
+#projects {
+    background-color: #496EB3;
+}
+
+#contact {
+    background-color: #B1C2E0;
+    justify-content: center;
+    /* flex-basis: 30em; */
+}
+
+#picture {
+    margin: 3vw;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    background-image: url("static/Caner.jpeg");
+    background-size: 100%;
+}
+
+.page-title {
+    color: #B1C2E0;
+    text-transform: uppercase;
+    writing-mode: vertical-lr;
+    font-size: 1em;
+    margin: 1vw 1vw;
+}
+
+.page-content {
+    margin: 1vw 1vw;
+    overflow: hidden;
+    /* overflow: visible; */
+    display: none;
+}
